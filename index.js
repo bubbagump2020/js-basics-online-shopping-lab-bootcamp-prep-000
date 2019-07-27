@@ -18,6 +18,11 @@ function addToCart(item) {
 
 function viewCart() {
   sizeOfCart = cart.length
+  if (sizeOfCart === 0){
+    return "your shopping cart is empty."
+  } else {
+    return `In your cart, `
+  }
 }
 
 function total() {
