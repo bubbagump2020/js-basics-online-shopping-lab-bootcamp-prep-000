@@ -17,7 +17,7 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  if (cart)
+  sizeOfCart = cart.length
 }
 
 function total() {
